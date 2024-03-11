@@ -1,0 +1,13 @@
+.video-container {
+    position: relative;    /* Important for positioning the iframe */
+    padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
+    height: 0;             /* Allow responsive scaling */
+    overflow: hidden;      
+    width: 100%; /* You'll still need to specify a width */
+    /* Hide content outside the container */
+}
+
+.video-container iframe {
+    aspect-ratio: 16 / 9; 
+    width: 100%; /* You'll still need to specify a width */
+}
