@@ -41,9 +41,7 @@ export default function ModalVideo({
               
               src="https://www.youtube.com/embed/s7Y6cyWVpgg?si=YzX-JrzSOeq5v34f"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
             ></iframe>
           </div>{" "}
           
