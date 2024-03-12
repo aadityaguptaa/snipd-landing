@@ -27,7 +27,6 @@ export default function Header() {
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow"></nav>
 
-          <MobileMenu />
         </div>
       </div>
     </header>
